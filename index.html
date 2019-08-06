@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <script src="https://cdn.bootcss.com/jquery/3.4.1/jquery.min.js"></script>
+    
+</head>
+<body>  
+
+
+
+    <div clgt data-id="132667199" data-spu="红色|七夕|美妆" data-title="美妆护肤神器" data-price="4000"> 
+        <img src="./img/d506e622fb78c807.jpg.webp">
+    </div>
+
+
+    <script src="clickTotal.js"></script>
+
+
+    <script>
+        clickTotal.config.url="http://www.baidu.com/";
+
+        clickTotal.config.token="n21312"
+       
+        clickTotal.init("clgt",["spu","title","price","id"]);
+    </script>
+</body>
+</html>
